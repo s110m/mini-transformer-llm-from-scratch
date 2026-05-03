@@ -120,7 +120,7 @@ text -> token ids -> embeddings -> transformer -> logits -> probabilities
 
 This is a tiny educational model, not ChatGPT. After a short run, it should learn simple patterns from the included dataset and produce rough instruction-style answers.
 
-For GitHub/LinkedIn, the value of this project is not final performance. The value is that the code clearly shows the full LLM lifecycle:
+The value of this project is not final performance. The value is that the code clearly shows the full LLM lifecycle:
 
 ```text
 pretraining -> SFT -> preference tuning -> inference optimization
