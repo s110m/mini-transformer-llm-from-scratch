@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "Python: Train",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/train.py",
+            "console": "integratedTerminal",
+            "python": "C:/Users/smi09/AppData/Local/anaconda3/envs/deeplearning/python.exe"
+        }
+    ]
+}

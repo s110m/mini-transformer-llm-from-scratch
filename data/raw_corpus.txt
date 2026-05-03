@@ -1,0 +1,25 @@
+A transformer is a neural network architecture based on attention.
+Attention lets each token look at earlier tokens and build a contextual representation.
+A decoder-only transformer predicts the next token from previous tokens.
+The model receives tokens, converts them to embeddings, applies transformer blocks, and predicts logits.
+Logits are converted to probabilities with softmax.
+Sampling chooses the next token from the probability distribution.
+Temperature controls randomness. Low temperature is conservative. High temperature is creative.
+A vocabulary is the set of tokens that the model can use.
+Pretraining teaches the model general language patterns from raw text.
+Finetuning teaches the model a desired behavior using input-output examples.
+Preference tuning teaches the model to prefer better answers over worse answers.
+KV caching stores keys and values from previous tokens to avoid recomputing them.
+Grouped-query attention shares key and value heads across query heads to reduce memory.
+Mixture of Experts uses several feedforward experts and a router chooses experts for each token.
+Sparse MoE uses only a few selected experts per token.
+Dense MoE combines all expert outputs.
+Routing collapse happens when one expert receives almost all tokens.
+A load balancing loss encourages experts to be used more evenly.
+LoRA freezes the base model and trains small low-rank matrices.
+RMSNorm helps stabilize training.
+RoPE injects position information by rotating query and key vectors.
+Cross entropy trains the model to put high probability on the correct next token.
+Data mixtures combine different types of text such as explanations, code, and dialogues.
+Number of parameters controls model capacity.
+Number of training tokens controls how much data the model sees.

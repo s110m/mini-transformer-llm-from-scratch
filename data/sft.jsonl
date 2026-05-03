@@ -1,0 +1,5 @@
+{"instruction": "What is a decoder-only transformer?", "answer": "A decoder-only transformer predicts the next token using only previous tokens. It is useful for text generation."}
+{"instruction": "What is KV caching?", "answer": "KV caching stores previous key and value vectors during generation so the model does not recompute them."}
+{"instruction": "Explain temperature in LLM sampling.", "answer": "Temperature changes the sharpness of the probability distribution. Low temperature is more deterministic. High temperature is more random."}
+{"instruction": "What is LoRA?", "answer": "LoRA is a parameter-efficient finetuning method. It freezes the base weight and trains small low-rank update matrices."}
+{"instruction": "What is routing collapse in MoE?", "answer": "Routing collapse happens when the router sends most tokens to the same expert. A load-balancing loss can reduce this problem."}

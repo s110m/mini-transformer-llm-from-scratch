@@ -1,0 +1,4 @@
+{"prompt": "What is KV caching?", "chosen": "KV caching stores previous key and value vectors, which makes autoregressive inference faster.", "rejected": "KV caching is a dataset cleaning method."}
+{"prompt": "What is temperature?", "chosen": "Temperature controls randomness in sampling: lower values are safer and higher values are more diverse.", "rejected": "Temperature is the number of transformer layers."}
+{"prompt": "What is LoRA?", "chosen": "LoRA freezes the original weights and trains small low-rank matrices for efficient finetuning.", "rejected": "LoRA is a method for increasing the vocabulary size."}
+{"prompt": "What is MoE?", "chosen": "MoE uses multiple experts and a router chooses which experts process each token.", "rejected": "MoE means the model has no feedforward layers."}
